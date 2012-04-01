@@ -14,8 +14,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Arquitetura2.dsv</Name>
-      <FullPath>Arquitetura2.dsv</FullPath>
+      <Name>Articles.dsv</Name>
+      <FullPath>Articles.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <MiningModels>

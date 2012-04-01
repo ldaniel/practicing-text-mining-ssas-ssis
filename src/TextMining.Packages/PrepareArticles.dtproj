@@ -38,8 +38,8 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="2">
-      <Name>Step3_PrepareSamples.dtsx</Name>
-      <FullPath>Step3_PrepareSamples.dtsx</FullPath>
+      <Name>Step03_PrepareSamples.dtsx</Name>
+      <FullPath>Step03_PrepareSamples.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
