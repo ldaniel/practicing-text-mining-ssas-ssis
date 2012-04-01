@@ -27,12 +27,12 @@
     </Configuration>
   </Configurations>
   <DTSPackages>
-    <DtsPackage FormatVersion="2">
+    <DtsPackage FormatVersion="3">
       <Name>Step01_BuildDictionary.dtsx</Name>
       <FullPath>Step01_BuildDictionary.dtsx</FullPath>
       <References />
     </DtsPackage>
-    <DtsPackage FormatVersion="2">
+    <DtsPackage FormatVersion="3">
       <Name>Step02_BuildTermVectors.dtsx</Name>
       <FullPath>Step02_BuildTermVectors.dtsx</FullPath>
       <References />
