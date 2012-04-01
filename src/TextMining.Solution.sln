@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "PrepareArticles", "TextMining.Packages\PrepareArticles.dtproj", "{42078CA6-3574-483E-8312-26DA960E482C}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DataMining", "DataMining\DataMining.dwproj", "{EB9CC791-D7A8-4AB8-A8DB-58B06801A1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42078CA6-3574-483E-8312-26DA960E482C}.Development|Default.ActiveCfg = Development
+		{42078CA6-3574-483E-8312-26DA960E482C}.Development|Default.Build.0 = Development
+		{EB9CC791-D7A8-4AB8-A8DB-58B06801A1D3}.Development|Default.ActiveCfg = Development
+		{EB9CC791-D7A8-4AB8-A8DB-58B06801A1D3}.Development|Default.Build.0 = Development
+		{EB9CC791-D7A8-4AB8-A8DB-58B06801A1D3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
