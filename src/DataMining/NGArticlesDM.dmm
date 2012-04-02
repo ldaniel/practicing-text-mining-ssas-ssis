@@ -1,4 +1,4 @@
-﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1bd11f86-9423-4047-80d3-b9e6fdfc943d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f211d0d3-f3b2-4ebb-9828-9ca028567fde" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>NGArticlesDM</ID>
   <Name>NGArticlesDM</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -16,7 +16,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10637" scrolltop="-7439" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24315" y="21458" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8468" scrolltop="-3787" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19976" y="14155" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -27,18 +27,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="TermVectors (dbo.TermVectors)" left="-9188" top="-2547" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000fe080000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_TermVectors" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="TrainArticles (dbo.TrainArticles)" left="-9188" top="-6826" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="TrainArticles" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
             </control>
@@ -49,7 +38,18 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-8087" top="-5446" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="TermVectors" left="20" top="4279" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TermVectors" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="1380" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -62,9 +62,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="-7688" y="-4947" />
-              <point x="-7688" y="-2547" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1520" y="1879" />
+              <point x="1520" y="4279" />
             </connector>
           </ddscontrol>
         </dds>
@@ -80,19 +80,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-10637</Value>
+      <Value>-8468</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-7439</Value>
+      <Value>-3787</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-9188</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-6826</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -101,44 +101,44 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4ec4acfa-7744-4eaa-992a-88f43c65bc3c">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="58fde307-c54d-42eb-80ed-d2b279f756d3">
     <DataSourceViewID>Arquitetura2</DataSourceViewID>
   </Source>
   <Columns>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b1e2c652-a98b-445a-a870-c2e50fd0500a">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="cab7af90-cd33-4798-b815-f4e48029f130">
       <ID>ID</ID>
       <Name>ID</Name>
       <IsKey>true</IsKey>
       <Type>Text</Type>
       <Content>Key</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="89d41fa3-e459-4503-bd34-5b7b18ba5912">
+        <KeyColumn dwd:design-time-name="1fc10651-7328-4c0d-baf4-a4fb074eec99">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e724081-62fe-45c3-bfcf-d470a563cae6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ec3e4d7-ccd1-42b3-a065-d21ba4862582">
             <TableID>dbo_TrainArticles</TableID>
             <ColumnID>ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5b9618a6-d9cd-4e7e-ab42-29f3f67242ea">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c3955090-b888-4e52-a988-a2f32a59d310">
       <ID>News Group</ID>
       <Name>News Group</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="74e3fe61-c0f3-40a5-9e91-24652058485c">
+        <KeyColumn dwd:design-time-name="779107ae-f204-45e3-b708-ee38f4c85410">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3a5bc4b-3fe0-460d-87e8-c6ffe3e1c721">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="137f1305-e112-4b82-a53a-249cf39a6017">
             <TableID>dbo_TrainArticles</TableID>
             <ColumnID>NewsGroup</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="618c1168-0dbd-4052-94a8-148fdb2a9726">
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="31219d5c-942e-4307-9fe8-0c6f30ca060e">
       <Annotations>
         <Annotation>
           <Name>MDXFilterComponent</Name>
@@ -148,28 +148,27 @@
       <ID>Term Vectors</ID>
       <Name>Term Vectors</Name>
       <ForeignKeyColumns>
-        <ForeignKeyColumn dwd:design-time-name="e1062c24-6bfb-4c8e-8ddf-7510b6ab696a">
+        <ForeignKeyColumn dwd:design-time-name="c1676d91-7e94-4568-9bb4-3715c156db01">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <NullProcessing>Error</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8fac036-f5d7-476b-a39e-47f83a5772cb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0be5181e-73ce-42c4-83d9-461bf871a598">
             <TableID>dbo_TermVectors</TableID>
             <ColumnID>ID</ColumnID>
           </Source>
         </ForeignKeyColumn>
       </ForeignKeyColumns>
       <Columns>
-        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="878135a9-7fef-4821-8b82-d7fdf0c235c1">
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c0063e35-7486-4f68-9255-203e1d16138d">
           <ID>Term</ID>
           <Name>Term</Name>
           <IsKey>true</IsKey>
           <Type>Text</Type>
           <Content>Key</Content>
           <KeyColumns>
-            <KeyColumn dwd:design-time-name="9c1cc19c-8944-4b58-b7a0-4109e84c5049">
+            <KeyColumn dwd:design-time-name="2bb30a43-b31d-473a-922b-c25151baa590">
               <DataType>WChar</DataType>
               <DataSize>128</DataSize>
-              <Source xsi:type="ColumnBinding" dwd:design-time-name="69fabb8f-43a4-4a33-bb0c-73e4273f8f9e">
+              <Source xsi:type="ColumnBinding" dwd:design-time-name="de5a3b51-614d-4f15-bef2-a0148901fdc3">
                 <TableID>dbo_TermVectors</TableID>
                 <ColumnID>Term</ColumnID>
               </Source>
@@ -180,7 +179,7 @@
     </Column>
   </Columns>
   <MiningModels>
-    <MiningModel dwd:design-time-name="8e05b9dc-514a-4cd0-af3d-0ff8fbdd3dec">
+    <MiningModel dwd:design-time-name="c30f320d-f046-405d-82e8-238fca579915">
       <ID>NGArticlesDM_DT</ID>
       <Name>NGArticlesDM_DT</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -195,24 +194,24 @@
         </AlgorithmParameter>
       </AlgorithmParameters>
       <Columns>
-        <Column dwd:design-time-name="f9bb4095-3265-46d6-9864-7a786dcbfaf9">
+        <Column dwd:design-time-name="9008253e-e423-4f6d-9608-32bf991ed638">
           <ID>ID</ID>
           <Name>ID</Name>
           <SourceColumnID>ID</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="e5ec713f-818c-4fae-987b-177a6f734a2d">
+        <Column dwd:design-time-name="bbd6d87c-25c0-4d7c-b97a-dcf96b196ed5">
           <ID>News Group</ID>
           <Name>News Group</Name>
           <SourceColumnID>News Group</SourceColumnID>
           <Usage>PredictOnly</Usage>
         </Column>
-        <Column dwd:design-time-name="55260915-9c64-4d90-9aba-d1c78e845e88">
+        <Column dwd:design-time-name="3a50a907-f828-4b19-a493-db15eaaa0645">
           <ID>Term Vectors</ID>
           <Name>Term Vectors</Name>
           <SourceColumnID>Term Vectors</SourceColumnID>
           <Columns>
-            <Column dwd:design-time-name="f9d4d606-5e2a-456e-8c89-5ca607bdcb5e">
+            <Column dwd:design-time-name="5d6a1e4d-663b-4b52-bb7a-9949a88d634d">
               <ID>Term</ID>
               <Name>Term</Name>
               <SourceColumnID>Term</SourceColumnID>
@@ -222,39 +221,33 @@
         </Column>
       </Columns>
     </MiningModel>
-    <MiningModel dwd:design-time-name="1ad95147-52ec-4128-affc-854de3b23a03">
+    <MiningModel dwd:design-time-name="4e9282fd-8287-4c53-abc1-a416e0ef9307">
       <ID>NGArticlesDM_NB</ID>
       <Name>NGArticlesDM_NB</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
-      <Algorithm>Microsoft_Naive_Bayes</Algorithm>
-      <AlgorithmParameters>
-        <AlgorithmParameter>
-          <Name>MAXIMUM_INPUT_ATTRIBUTES</Name>
-          <Value xsi:type="xsd:int">0</Value>
-        </AlgorithmParameter>
-      </AlgorithmParameters>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
       <Columns>
-        <Column dwd:design-time-name="47c37ebb-6c28-42c4-85f9-2e3aaba5a286">
+        <Column dwd:design-time-name="ed841c9d-051c-425c-8d8d-20fc96764d5b">
           <ID>ID</ID>
           <Name>ID</Name>
           <SourceColumnID>ID</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="47d67a95-9a73-4b11-80b5-2130ae97dc60">
+        <Column dwd:design-time-name="8a848546-7896-4132-9c21-b35931defb31">
           <ID>News Group</ID>
           <Name>News Group</Name>
           <SourceColumnID>News Group</SourceColumnID>
           <Usage>PredictOnly</Usage>
         </Column>
-        <Column dwd:design-time-name="76ec1c19-fd1d-4166-ae7a-9fb6e4a7bc16">
+        <Column dwd:design-time-name="9842eb4e-cdd8-46dd-a488-e89c2a95cdce">
           <ID>Term Vectors</ID>
           <Name>Term Vectors</Name>
           <SourceColumnID>Term Vectors</SourceColumnID>
           <Columns>
-            <Column dwd:design-time-name="1ff11343-d2f1-4c61-85a5-6bccc416f054">
+            <Column dwd:design-time-name="d45088b2-dc36-4115-9d9c-00a6d3d9377e">
               <ID>Term</ID>
               <Name>Term</Name>
               <SourceColumnID>Term</SourceColumnID>
@@ -264,39 +257,33 @@
         </Column>
       </Columns>
     </MiningModel>
-    <MiningModel dwd:design-time-name="1be05054-11c7-4e78-885a-857bc01a42d6">
+    <MiningModel dwd:design-time-name="b00c4742-704e-43bb-ae22-4eb56499869c">
       <ID>NGArticlesDM_NN</ID>
       <Name>NGArticlesDM_NN</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
-      <Algorithm>Microsoft_Logistic_Regression</Algorithm>
-      <AlgorithmParameters>
-        <AlgorithmParameter>
-          <Name>MAXIMUM_INPUT_ATTRIBUTES</Name>
-          <Value xsi:type="xsd:int">0</Value>
-        </AlgorithmParameter>
-      </AlgorithmParameters>
+      <Algorithm>Microsoft_Association_Rules</Algorithm>
       <Columns>
-        <Column dwd:design-time-name="460908bd-cd46-4787-b3aa-5051fde8bece">
+        <Column dwd:design-time-name="0ba4a742-e330-4ec9-a37e-83686aba7832">
           <ID>ID</ID>
           <Name>ID</Name>
           <SourceColumnID>ID</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="a17a05de-0faf-4d32-b263-ca9619b8f029">
+        <Column dwd:design-time-name="e16ba4fc-a32b-424e-840b-5a239e66d87c">
           <ID>News Group</ID>
           <Name>News Group</Name>
           <SourceColumnID>News Group</SourceColumnID>
           <Usage>PredictOnly</Usage>
         </Column>
-        <Column dwd:design-time-name="5ddf1eb8-8409-456b-bdc7-222287cda453">
+        <Column dwd:design-time-name="d55ee94d-2df0-4636-8a88-2ec3e76fc159">
           <ID>Term Vectors</ID>
           <Name>Term Vectors</Name>
           <SourceColumnID>Term Vectors</SourceColumnID>
           <Columns>
-            <Column dwd:design-time-name="895005be-7050-44a0-90d9-dcb1a16be5af">
+            <Column dwd:design-time-name="a46289f0-3ab1-4c2d-9857-f3ef049bb8c4">
               <ID>Term</ID>
               <Name>Term</Name>
               <SourceColumnID>Term</SourceColumnID>
@@ -307,4 +294,5 @@
       </Columns>
     </MiningModel>
   </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
 </MiningStructure>
