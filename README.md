@@ -10,10 +10,10 @@ Text mining, sometimes alternately referred to as text data mining, roughly equi
 
 Requirements
 ------------
-+ SQL Server 2008 R2
-+ Analysis Services
-+ Integration Services
-+ Visual Studio 2008
++ Microsoft SQL Server 2008 R2
++ Microsoft SQL Server Analysis Services
++ Microsoft SQL Server Integration Services
++ Business Intelligence Development Studio
 
 
 
