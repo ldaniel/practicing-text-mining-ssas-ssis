@@ -13,7 +13,7 @@ PoC Requirements
 + Microsoft SQL Server 2008 R2
    + Microsoft SQL Server Analysis Services
    + Microsoft SQL Server Integration Services
-+ Business Intelligence Development Studio
++ Business Intelligence Development Studio (for SQL Server 2008)
 
 
 
